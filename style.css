@@ -305,8 +305,13 @@ position: static -> slwasys positoned accpridng to noraml flow*/
 
 }
 
+
 .about-containers, .about-details-container{
     display: flex;
+}
+
+#skills .about-containers {
+    flex-direction: column;
 }
 
 .about-pic{
@@ -337,6 +342,16 @@ position: static -> slwasys positoned accpridng to noraml flow*/
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid ;
     border-color: rgb(163,163,163);
+    text-align: center;
+}
+
+.new-details-containers{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    /* border: rgb(53,53,53) 0.1rem solid ;  */
+    border-color: rgb(171, 43, 18); 
     text-align: center;
 }
 
@@ -371,6 +386,12 @@ position: static -> slwasys positoned accpridng to noraml flow*/
     flex-direction: column;
 }
 
+.new-experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .article-container {
     display: flex;
     text-align: initial;
@@ -398,9 +419,9 @@ article .icon {
     position: relative;
 }
 
-.color-container{
+.new-color-container{
     border-color: rgb(163,163,163); 
-    background: rgb(250,250,250);
+    background: rgba(230, 224, 224, 0.316);
 
 }
 
