@@ -39,6 +39,15 @@
         height: 275px;
         margin: 0 auto 2rem;
     }
+
+    #projects .about-containers {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #projects .details-containers {
+        flex: 0 1 calc(50% - 20px);
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -103,6 +112,16 @@
 
     .text-container{
         text-align: justify;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #projects .about-containers {
+        flex-direction: column;
+    }
+    
+    #projects .details-containers {
+        flex: 0 1 100%;
     }
 }
 /* basically when screen size is less than 1200 the desktop navigation disappears*/

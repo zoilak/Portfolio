@@ -293,6 +293,7 @@ position: static -> slwasys positoned accpridng to noraml flow*/
 }
 
 .about-containers{
+    display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
